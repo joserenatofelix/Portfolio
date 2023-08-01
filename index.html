@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfólio Website</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/style_2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+</head>
+<body>
+       <div class="scroll-up-btn">
+        <i class="fas fa-angle-up"></i>
+    </div>
+    <nav class="navbar">
+        <div class="max-width">
+            <div class="logo"><a href="#">Portfó<span>lio.</span></a></div>
+            <ul class="menu">
+                <li><a href="https://www.linkedin.com/in/joserenatofelix/" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i></a></li>
+                <li><a href="https://github.com/joserenatofelix" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a></li>
+                <li><a href="https://api.whatsapp.com/send?phone=5512991730737" target="_blank" rel="noopener noreferrer"><i class="fab fa-whatsapp"></i></a></li>                
+                <li><a href="#home" class="menu-btn">Home</a></li>
+                <li><a href="#about" class="menu-btn">Sobre Mim</a></li>                
+                <li><a href="#skills" class="menu-btn">Habilidades</a></li>
+                <li><a href="#projects" class="menu-btn">Projetos</a></li>
+                <li><a href="#services" class="menu-btn">Certificados</a></li>
+                <li><a href="#contact" class="menu-btn">Contato</a></li>
+            </ul>
+            <div class="menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+        
+   <!-- <img class="moving-image" src="" alt="Imagem"> -->
+
+    <!-- home section start -->
+    <section class="home" id="home">
+        <div class="max-width">
+            <div class="home-content">
+                <div class="text-1">Olá, Meu nome é </div>
+                <div class="text-2">Renato Felix</div>
+                <div class="text-3">Eu sou um desenvolvedor <span class="typing"></span></div>
+                <li><a href="https://api.whatsapp.com/send?phone=5512991730737" target="_blank" rel="noopener noreferrer">Fale comigo! <i class="fab fa-whatsapp"></i></a></li>
+            </div>
+        </div>
+
+        <div id="weather-container">
+            <h2 id="location"></h2>
+            <div id="weather-info">
+              <p id="temperature"></p>
+              <p id="description"></p>
+            </div>
+    </section>
+
+    <!-- about section start -->
+    <section class="about" id="about">
+        <div class="max-width">
+            <h2 class="title">Sobre Mim</h2>
+            <div class="about-content">
+                <div class="column left">
+                    <img src="./assets/img/Foto.jpeg" alt="Foto">
+                </div>
+                <div class="column right">
+                    <div class="text">Sou o <span>Renato Felix</span> um desenvolvedor <span class="typing-2"></span></div>
+                    <div class="descricao">Olá meu nome é Renato, 48 anos, atuei por 20 anos em telecom e Infraestrutura de redes, sou formado em analise em desenvolvimento de sistemas e pós graduado em ciências de dados, já atuo a 5 anos com desenvolvimento de software atuando como front-end e back-end, desenvolvendo e automatizando processos, comunicação via API RESTful e integrações com bancos de dados SQL e NoSQL, como MySQL e MongoDB, garantindo a eficiência no armazenamento e recuperação de dados, aplicações com microsserviços, utilizando boas práticas de desenvolvimento como SOLID, Low Code e Clean Code, sobre CI/CD trabalhei com o Jenkins para o uso de jobs e pipelines, com serviços em nuvem AWS Azure e Google Cloud. Metodologias ágeis, como Jira, Kankan e Scrum para as tarefas, tasks, refinamentos, Confluence para nossa documentação. <br/><br/>
+                        <strong>➡️HTML | CSS | Booststrap | Javascripts | Nodes.js | React.Js | React Native | Java | 
+                        Spring Boot | Angular | Type Scripts | Python | REST | JSON | AWS | CI/CD | Docker | Kubernetes |</strong>
+                    </div>
+
+                    <a href="./assets/docs/joserenatofelix.pdf" target="_blank" rel="noopener noreferrer">Download CV</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- services section start -->
+    <section class="services" id="services">
+        <div class="max-width">
+            <h2 class="title">Mus Certificados</h2><br>
+            <div class="serv-content">
+                <div class="card">
+                    <div class="box">
+                        <i class="fab fa-figma"></i>
+                        <div class="text">Website Modification</div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <i class="fab fa-github"></i>
+                        <div class="text">Responsive Websites</div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <i class="fas fa-code"></i>
+                        <div class="text">Website Creation</div>
+                        <p>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <!-- services section start -->
+    <section class="services" id="services">
+        <div class="max-width">
+            <div class="container">
+                <div class="box">
+                  <div class="chart" data-percent="90" >90%</div>
+                  <h2>HTML</h2>
+                </div>
+                <div class="box">
+                  <div class="chart" data-percent="72" >72%</div>
+                  <h2>CSS</h2>
+                </div>
+                <div class="box">
+                  <div class="chart" data-percent="81" >81%</div>
+                  <h2>JAVASCRIPT</h2>
+                </div>
+                <div class="box">
+                  <div class="chart" data-percent="81" >81%</div>
+                  <h2>JAVASCRIPT</h2>
+                </div>
+                <div class="box">
+                  <div class="chart" data-percent="81" >81%</div>
+                  <h2>JAVASCRIPT</h2>
+                </div>
+                <div class="box">
+                  <div class="chart" data-percent="81" >81%</div>
+                  <h2>JAVASCRIPT</h2>
+                </div>
+                <div class="box">
+                  <div class="chart" data-percent="81" >81%</div>
+                  <h2>JAVASCRIPT</h2>
+                </div>
+                <div class="box">
+                  <div class="chart" data-percent="81" >81%</div>
+                  <h2>JAVASCRIPT</h2>
+                </div>
+                <div class="box">
+                  <div class="chart" data-percent="81" >81%</div>
+                  <h2>JAVASCRIPT</h2>
+                </div>
+                <div class="box">
+                  <div class="chart" data-percent="81" >81%</div>
+                  <h2>JAVASCRIPT</h2>
+                </div>
+               
+              </div>
+               
+    </section>
+
+    <!-- skills section start -->
+    <section class="skills" id="skills">
+        <div class="max-width">
+            <h2 class="title">My skills</h2>
+            <div class="skills-content"></div>                
+                    
+            <div class="fill-bars top-fills"></div>    
+            
+            <div class="container">
+               
+        </div>      
+   </section>
+   
+    <!-- teams section start -->
+    <section class="projects" id="projects">
+        <div class="max-width">
+                <h2 class="title">Meus Projetos</h2>
+                <div class="carousel owl-carousel">
+                    <div class="card">
+                        <div class="box">
+                            <a href="https://buscador-de-cep-alpha-roan.vercel.app/" target="_blank">
+                                <img src="./assets/img/Buscador de CEP.png" alt="CEP"></a>
+                            <div class="text">Buscador de Endereço</div>
+                            <p>Buscador de endereço por cep criado em react que consome uma api para buscar esse endereço solicitado!</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="box">
+                            <a href="https://joserenatofelix-pokedex.netlify.app/" target="_blank">
+                                <img src="./assets/img/pokedex.png" alt="Dev-Contabil"></a>
+                            <div class="text">Pokedex</div>
+                            <p>Aplicação que consome uma api aonde busca informações sobre diversos pokemons e suas habilidades!</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="box">
+                            <a href="https://joserenatofelix.github.io/Pizzaria/">
+                                <img src="./assets/img/pizzaria.png" alt="Pizzaria"></a>
+                            <div class="text">Site de Pizzaria </div>
+                            <p>Projeto de e-commerce feito em HTML/CSS e Javascript, completo adicionando as pizzas e indo para o carrinho de compras.</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="box">
+                            <a href="https://joserenatofelix.github.io/Cafeteria/">
+                                <img src="./assets/img/Cafeteria.png" alt="Cafeteria"></a>
+                            <div class="text">Site de uma Cafeteria</div>
+                            <p>Projeto cafeteria foi criado com o framework Bootstrap, pensando na em um layout responsivo e moderno.</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="box">
+                            <a href="https://buscador-de-cep-alpha-roan.vercel.app/" target="_blank">
+                                <img src="./assets/img/Buscador de CEP.png" alt="CEP"></a>
+                            <div class="text">Buscador de Endereço</div>
+                            <p>Buscador de endereço por cep criado em react que consome uma api para buscar esse endereço solicitado!</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="box">
+                            <a href="https://joserenatofelix-pokedex.netlify.app/" target="_blank">
+                                <img src="./assets/img/pokedex.png" alt="Dev-Contabil"></a>
+                            <div class="text">Pokedex</div>
+                            <p>Aplicação que consome uma api aonde busca informações sobre diversos pokemons e suas habilidades!</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="box">
+                            <a href="https://joserenatofelix.github.io/Pizzaria/">
+                                <img src="./assets/img/pizzaria.png" alt="Pizzaria"></a>
+                            <div class="text">Site de Pizzaria </div>
+                            <p>Projeto de e-commerce feito em HTML/CSS e Javascript, completo adicionando as pizzas e indo para o carrinho de compras.</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="box">
+                            <a href="https://joserenatofelix.github.io/Cafeteria/">
+                                <img src="./assets/img/Cafeteria.png" alt="Cafeteria"></a>
+                            <div class="text">Site de uma Cafeteria</div>
+                            <p>Projeto cafeteria foi criado com o framework Bootstrap, pensando na em um layout responsivo e moderno.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+
+    <!-- contact section start -->
+    <section class="contact" id="contact">
+        <div class="max-width">
+            <h2 class="title">Entrar em Contato</h2>
+            <div class="contact-content">
+                <div class="column left">
+                    <div class="text">Dados do contato</div>
+                    <p>Obrigado por visitar meu portfólio, assim que possível responderei seu e-mail.</p>
+                    <div class="icons">
+                        <div class="row">
+                            <i class="fas fa-user"></i>
+                            <div class="info">
+                                <div class="head">Nome</div>
+                                <div class="sub-title">Renato Felix</div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div class="info">
+                                <div class="head">Endereço</div>
+                                <div class="sub-title">Jacareí, São Paulo</div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <i class="fas fa-envelope"></i>
+                            <div class="info">
+                                <div class="head">E-mail</div>
+                                <div class="sub-title">joserenatofelix@gmail.com</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="column right">
+                    <div class="text">Me mande uma mensagem</div>
+                    <form action="https://formsubmit.co/joserenatofelix@gmail.com" method="POST">
+                        <div class="fields">
+                            <div class="field name">
+                                <input type="text" placeholder="Nome" required>
+                            </div>
+                            <div class="field email">
+                                <input type="email" placeholder="E-mail" required>
+                            </div>
+                        </div>
+                        <div class="field">
+                            <input type="text" placeholder="Assunto" required>
+                        </div>
+                        <div class="field textarea">
+                            <textarea cols="30" rows="10" placeholder="Digite sua mensagem aqui !" required></textarea>
+                        </div>
+                        <div class="button-area">
+                            <button type="submit">Enviar</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer section start -->
+    <footer>
+        <span>Created By <a href="https://www.codingnepalweb.com">CodingNepal</a> | <span
+                class="far fa-copyright"></span> 2023 All rights reserved.</span>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="assets/js/script_2.js"></script>
+</body>
+<script>
+let formulario = document.getElementById("formulario-contato")
+
+
+function chameOFormulario(){
+    formulario.className = "mostrar-formulario"
+}
+
+</script>
+
+</html>
