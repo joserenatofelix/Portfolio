@@ -1,27 +1,28 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <title>Certificados</title>
   <style>
     body {
-        background-color: #0ba2dd;
-        font-family: Arial, sans-serif;
+      background-color: #0ba2dd;
+      font-family: Arial, sans-serif;
       margin: 0;
       padding: 20px;
     }
-    
+
     h1 {
       text-align: center;
       color: blueviolet;
     }
-    
+
     .certificados-container {
       display: flex;
       flex-wrap: wrap;
       justify-content: space-between;
       margin-top: 20px;
     }
-    
+
     .certificado {
       width: calc(50% - 10px);
       background-color: #300e0e;
@@ -30,19 +31,19 @@
       box-sizing: border-box;
       margin-bottom: 20px;
     }
-    
+
     .certificado img {
       max-width: 100%;
-      height: auto;     
-}
-   
-#arrow {
+      height: auto;
+    }
+
+    #arrow {
       position: fixed;
       bottom: 20px;
       right: 20px;
       width: 50px;
       height: 50px;
-      background-color: #006eff;
+      background-color: #7732f7;
       color: white;
       border-radius: 50%;
       text-align: center;
@@ -57,70 +58,71 @@
       top: 5%;
       transform: translateY(-50%);
       padding: 10px 20px;
-      background-color: #006eff;
+      background-color: #7732f7;
       color: white;
       border: none;
       border-radius: 8px;
       font-size: 20px;
       cursor: pointer;
     }
-   
   </style>
 </head>
+
 <body>
-    
-    <div id="arrow" onclick="scrollToTop()">↑</div>
 
-    <a href="index.html" id="back-button">Voltar para o Portfólio</a>
+  <div id="arrow" onclick="scrollToTop()">↑</div>
 
-    <h1>CERTIFICADOS ACADÊMICOS</h1>
+  <a href="index.html" id="back-button">Voltar para o Portfólio</a>
 
-  
-  
+  <h1>CERTIFICADOS ACADÊMICOS</h1>
+
+
+
   <div class="certificados-container">
     <div class="certificado">
       <img src="./assets/img/Certificado1.jpg" alt="Certificado 1">
     </div>
     <div class="certificado">
-        <img src="assets/img/Certificado2.jpg" alt="Certificado 2">
-      </div>
-      <div class="certificado">
-        <img src="./assets/img/Certificado3.jpg" alt="Certificado 1">
-      </div>
-      <div class="certificado">
-        <img src="./assets/img/Certificado1.jpg" alt="Certificado 1">
-      </div>
-      <div class="certificado">
-        <img src="./assets/img/Certificado1.jpg" alt="Certificado 1">
-      </div>
-      <div class="certificado">
-        <img src="./assets/img/Certificado1.jpg" alt="Certificado 1">
-      </div>
-      <div class="certificado">
-        <img src="./assets/img/Certificado1.jpg" alt="Certificado 1">
-      </div>
-      <div class="certificado">
-        <img src="./assets/img/Certificado1.jpg" alt="Certificado 1">
-      </div>   
-      
-      <script>
-        function scrollToTop() {
-          window.scrollTo({
-            top: 0,
-            behavior: "smooth"
-          });
+      <img src="assets/img/Certificado2.jpg" alt="Certificado 2">
+    </div>
+    <div class="certificado">
+      <img src="./assets/img/Certificado3.jpg" alt="Certificado 1">
+    </div>
+    <div class="certificado">
+      <img src="./assets/img/Certificado1.jpg" alt="Certificado 1">
+    </div>
+    <div class="certificado">
+      <img src="./assets/img/Certificado1.jpg" alt="Certificado 1">
+    </div>
+    <div class="certificado">
+      <img src="./assets/img/Certificado1.jpg" alt="Certificado 1">
+    </div>
+    <div class="certificado">
+      <img src="./assets/img/Certificado1.jpg" alt="Certificado 1">
+    </div>
+    <div class="certificado">
+      <img src="./assets/img/Certificado1.jpg" alt="Certificado 1">
+    </div>
+
+    <script>
+      function scrollToTop() {
+        window.scrollTo({
+          top: 0,
+          behavior: "smooth"
+        });
+      }
+
+      document.addEventListener('keyup', (e) => {
+        if (e.key == 'PrintScreen') {
+          navigator.clipboard.writeText('');
+          alert('Screenshots disabled!');
         }
+      });
 
-        document.addEventListener('keyup', (e) => {
-    if (e.key == 'PrintScreen') {
-        navigator.clipboard.writeText('');
-        alert('Screenshots disabled!');
-    }
-});
-
-      </script>
+    </script>
 
 
 
-    </body>
-    </html>
+</body>
+
+</html>
