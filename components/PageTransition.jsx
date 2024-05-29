@@ -1,6 +1,6 @@
 "use client";
 
-import { AnimatePresence, motion } from "framer-motion"
+import { AnimatePresence, motion } from "framer-motion";
 import { usePathname } from "next/navigation";
 
 const PageTransition = ({children}) => {
@@ -20,5 +20,5 @@ const PageTransition = ({children}) => {
     </div>
     </AnimatePresence>
  );
-};
+}; 
 export default PageTransition;
